@@ -1,0 +1,2 @@
+Select
+From Closeout_Rule_History__c

@@ -1,0 +1,159 @@
+<sforceobjects>
+    <object name="Case_1">
+        <query>sql\case.sql</query>
+        <outfile>data\TBL_CASE_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="Case_Time__c">
+        <query>sql\case_time__c.sql</query>
+        <outfile>data\CASE_TIME__C_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="Guest__c">
+        <query>sql\guest_check.sql</query>
+        <outfile>data\GUEST__C_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="Time_Log__c">
+        <query>sql\time_log_ver.sql</query>
+        <outfile>data\TIME_LOG__C_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="Account">
+        <query>sql\account.sql</query>
+        <outfile>data\TBL_ACCOUNT_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="CaseHistory">
+        <query>sql\casehistory.sql</query>
+        <outfile>data\CASEHISTORY_[START_DATETIME]_[END_DATETIME].txt</outfile>
+        <loadtype>incremental</loadtype>
+    </object>
+    <object name="Brand__c">
+        <query>sql\brand__c.sql</query>
+        <outfile>data\BRAND__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Onboarding__c">
+        <query>sql\onboarding__c.sql</query>
+        <outfile>data\ONBOARDING.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Survey_Language__c">
+        <query>sql\survey_language__c.sql</query>
+        <outfile>data\SURVEY_LANGUAGE__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Market__c">
+        <query>sql\market__c.sql</query>
+        <outfile>data\MARKET__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Travel_Product__c">
+        <query>sql\travel_product__c.sql</query>
+        <outfile>data\TRAVEL_PRODUCT_.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="TRAINING_ACTIVITY">
+        <query>sql\TRAINING_ACTIVITY.sql</query>
+        <outfile>data\TRAINING_ACTIVITY.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="SUPER_REGION_">
+        <query>sql\SUPER_REGION_.sql</query>
+        <outfile>data\SUPER_REGION_.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="REGION__C">
+        <query>sql\REGION__C.sql</query>
+        <outfile>data\REGION__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="RECORDTYPE">
+        <query>sql\RECORDTYPE.sql</query>
+        <outfile>data\RECORDTYPE.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="GROUP">
+        <query>sql\GROUP.sql</query>
+        <outfile>data\GROUP.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="CURRENCY_CODE__C">
+        <query>sql\CURRENCY_CODE__C.sql</query>
+        <outfile>data\CURRENCY_CODE__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="CHAIN__C">
+        <query>sql\CHAIN__C.sql</query>
+        <outfile>data\CHAIN__C.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="TBL_USER">
+        <query>sql\TBL_USER.sql</query>
+        <outfile>data\TBL_USER.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="SUBMARKET_">
+        <query>sql\SUBMARKET_.sql</query>
+        <outfile>data\SUBMARKET_.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Response__c">
+        <query>sql\Response__c.sql</query>
+        <outfile>data\Response__c.csv</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Response_Submission__c">
+        <query>sql\response_submission__c.sql</query>
+        <outfile>data\response_submission__c.csv</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Localization_Language__c">
+        <query>sql\localization_language__c.sql</query>
+        <outfile>data\localization_language__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Localization_Project__c">
+        <query>sql\localization_project__c.sql</query>
+        <outfile>data\localization_project__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Localization_Request__c">
+        <query>sql\localization_request__c.sql</query>
+        <outfile>data\localization_request__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Localization_Tracker__c">
+        <query>sql\localization_tracker__c.sql</query>
+        <outfile>data\localization_tracker__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Closeout_Rule_History__c">
+        <query>sql\Closeout_Rule_History__c.sql</query>
+        <outfile>data\Closeout_Rule_History__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Ownership_Change__c">
+        <query>sql\Ownership_Change__c.sql</query>
+        <outfile>data\Ownership_Change__c.txt</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Survey__c">
+        <query>sql\Survey__c.sql</query>
+        <outfile>data\Survey__c.csv</outfile>
+        <loadtype>full</loadtype>
+    </object>
+    <object name="Case">
+        <query>sql\case_time__c_audit.sql</query>
+        <outfile>data\case.csv</outfile>
+        <loadtype>full</loadtype>
+    </object>
+
+
+</sforceobjects>
+
+
+
+
+

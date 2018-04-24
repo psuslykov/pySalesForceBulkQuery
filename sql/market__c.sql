@@ -1,0 +1,16 @@
+Select Id,
+   OwnerId,
+   IsDeleted,
+   Name,
+   CreatedDate,
+   CreatedById,
+   LastModifiedDate,
+   LastModifiedById,
+   SystemModstamp,
+   Expedia_Market_Id__c,
+   Region__c,
+   External_Market_Id__c,
+   Super_Region__c,
+   Active__c,
+   All_Rounder_Market__c
+From Market__c
